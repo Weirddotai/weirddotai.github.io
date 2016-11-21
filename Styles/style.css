@@ -3,7 +3,18 @@ html {
 }
 
 body {
+	width: 150px;
+	height: 55px;
+	margin:auto;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+
+h1 {
 	font-family: 'Titillium Web', sans-serif;
 	color: white;
-	font-size: 6rem;
+	font-size: 36px;
 }
