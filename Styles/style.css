@@ -1,8 +1,12 @@
 html {
-	background-color: #5dd29cff;
+	
 }
 
 body {
+	background-color: #5dd29cff;
+}
+
+.global {
 	width: 150px;
 	height: 55px;
 	margin:auto;
