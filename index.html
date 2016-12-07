@@ -13,8 +13,8 @@
   		<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   		<input type='hidden' name='redirect_to' value='http://weird.ai/thankyou.html>' />		
   		<!-- all your input fields here.... -->		
-  		<input type='email' name='E-mail' value='Your email'/>
-  		<input type='text' name='Message' value='Your message'>
+  		<input type='email' name='E-mail' required='true' value='Your email'/>
+  		<textarea name='Message' required='true' rows='4'>Your message. Pressing enter will submit.</textarea>
   		<input type='submit' value='Join' />
 		</form>
 	</div>
