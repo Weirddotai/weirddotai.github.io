@@ -4,10 +4,12 @@ html {
 
 body {
 	background-color: #54cf96;
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
 }
 
 .centered {
-	width: 150px;
+	width: 200px;
 	height: 55px;
 	margin:auto;
 	position: absolute;
@@ -18,7 +20,12 @@ body {
 }
 
 h1 {
-	font-family: 'Titillium Web', sans-serif;
-	color: white;
 	font-size: 36px;
+}
+
+input, textarea {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	width: 155px;
+	box-sizing: border-box;
 }
